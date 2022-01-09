@@ -1,0 +1,21 @@
+.about-image .card-img-overlay{
+    font-family: "Arial Black", serif;
+    color: #ffffff;
+}
+.about-text{
+    text-align: justify;
+}
+.about-image .card-img-overlay{
+    font-family: "Arial Black", serif;
+    color: #ffffff;
+}
+.about-center-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*.about-details{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/

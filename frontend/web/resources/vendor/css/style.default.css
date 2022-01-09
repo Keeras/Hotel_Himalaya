@@ -1,0 +1,164 @@
+body{
+    overflow-x: hidden;
+}
+.card{
+    background-color: #9b9d9e00;
+    border: #9b9d9e00;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 15px #C6C6C6;*/
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1c65a4;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #267fcc;
+}
+
+#main-page-loading{
+    width: 100%;
+    height: 100vh;
+    background: #124773;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pre-loader-image{
+    width: 200px;
+    height: 200px;
+}
+
+
+section{
+    padding: 2rem 0;
+}
+.pic-index img{
+    padding: 10px 0;
+    width: 100%;
+    height: 12.5rem;
+}
+.image-zoom{
+    transition: transform .4s; /* Animation */
+}
+.image-zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+.contact-content,
+.index-body{
+    padding-top: 2.5rem;
+}
+.index-body{
+    background-color: #124773;
+}
+.about-image img,
+.index-body img{
+    width: 100%;
+    height: 100%;
+}
+.about-second-header,
+.index-second-header{
+    background-color: #2a5f8c;
+    padding: 1rem 0;
+    color: #ffffff;
+}
+
+.index-pic-fade img{
+    width: 100%;
+    height: 20rem;
+}
+.index-text-justify{
+    text-align: justify;
+}
+
+.index-text-parg{
+    font-size: 2em;
+    line-height: 1.5em;
+    font-family: "MV Boli";
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+
+}
+.index-pic-fade{
+    font-size: 1.3em;
+    font-family: "Droid Sans", serif;
+    margin-bottom: 1em;
+
+}
+.no-padding-top{
+    padding: 0 !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+}
+.carousel-index{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.all-margin-top{
+    margin-top: 2.5rem;
+}
+.carousel-item{
+   height: auto;
+}
+
+.border-radius-15{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.page-header-top{
+    padding: 25px 0;
+    background-color: #2a5f8c;
+
+}
+
+.head-second-item{
+    text-align: center;
+}
+
+.my-head-title{
+    font-family: "Arial Black";
+}
+
+.head-third-item{
+    text-align: right;
+}
+.blog-big-pic img{
+    width:100%;
+    height: 25rem;
+}
+.blog-big-small-pic{
+    padding: 20px 0;
+}
+.blog-big-small-pic img{
+    width: 100%;
+    height: 10rem;
+}
+.head-first-item i{
+    text-align: left;
+}
+
+.head-first-item.head-first-item-second{
+    text-align: right;
+}

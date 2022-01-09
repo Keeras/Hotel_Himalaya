@@ -1,0 +1,23 @@
+
+.blog-lup{
+    margin-top: 1.5rem;
+}
+.blog-lup .avatar,
+.blog-lup .title,
+.blog-lup .date img{
+    padding-right: 0.3rem;
+}
+.blog-lup .author{
+    padding-right: 1rem;
+}
+.blog-lup .post-thumbnail img{
+    height: auto;
+    width: 100% !important;
+}
+.blog-modal-footer{
+    padding-top: 10px;
+}
+.blog-delete,
+.blog-edit{
+    width: 10rem;
+}

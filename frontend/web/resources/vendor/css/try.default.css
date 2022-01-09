@@ -1,0 +1,210 @@
+.booking-all{
+padding-bottom: 5rem;
+}
+.booking-main{
+    width: 100%;
+    max-width: 912px;
+    margin: 1.5rem 0;
+    background: rgba(208, 210, 212, 0.85);
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 5px 10px -5px rgb(18, 71, 115);
+    box-shadow: 10px 10px 25px 10px rgba(3, 0, 144, 0.54);
+}
+.booking-image{
+    position: absolute;
+    margin: 0 15px;
+    top: -25px;
+    bottom: -25px;
+    width: 85%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.booking-image-main .booking-image:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(21, 64, 100, 0.72);
+}
+.booking-image-header{
+
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-left: 1.5rem;
+    position: relative;
+    z-index: 20;
+}
+.booking-image-header h2{
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: capitalize;
+
+}
+.booking-form-main{
+    padding: 2rem 2rem 2rem 1rem;
+}
+.booking-form-main .booking-label-1,
+.booking-form-main .booking-label-2,
+.booking-form-main .booking-label-3,
+.booking-form-main .booking-label-4,
+.booking-form-main .booking-label-5 {
+    margin-bottom: 30px;
+}
+.booking-main .booking-form-main .form-label{
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.booking-main .booking-form-main .form-control {
+    background-color: rgba(212, 212, 212, 0.32);
+    height: 45px;
+    padding: 0px 15px;
+    color: #000000;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 40px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.booking-main .form-control::-webkit-input-placeholder {
+    color: #c2c2c2;
+}
+
+.booking-main .form-control:-ms-input-placeholder {
+    color: #c2c2c2;
+}
+
+.booking-main .form-control::placeholder {
+    color: #c2c2c2;
+}
+
+.booking-main .form-control:focus {
+    -webkit-box-shadow: 0px 0px 0px 3px #124773;
+    box-shadow: 0px 0px 0px 3px #165b94;
+}
+.booking-main input[type="date"].form-control:invalid {
+    color: #000000;
+}
+
+.booking-main select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.booking-main select.form-control:invalid {
+    color: #000000;
+}
+
+.booking-main select.form-control+.select-arrow {
+    position: absolute;
+    right: 13px;
+    bottom: 20px;
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    pointer-events: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.booking-main select.form-control+.select-arrow:after {
+    content: '\279C';
+    display: block;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.booking-main .booking-button .submit-btn {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(to right, #124773, #3d7cbe);
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 40px;
+    height: 55px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.booking-main .booking-button .submit-btn:hover,
+.booking-main .booking-button .submit-btn:focus {
+    background-image: linear-gradient(to right, #185891, #124773);
+}
+
+@media only screen and (max-width: 768px) {
+    .booking-main .booking-image {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: -15px;
+        width: 95%;
+        margin: auto;
+    }
+    .booking-main>form {
+                margin-left: 0px;
+            }
+}
+/*line-and-icon*/
+.line-with-icon{
+    width: 100%;
+    border: none !important;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    clear: none;
+}
+.line-with-icon:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background: #3b89c9;
+    display: block;
+    top: 49%;
+    z-index: 1;
+}
+.icon-with-line{
+    float: none !important;
+    padding: 0 10px;
+    position: relative;
+    z-index: 5;
+    display: inline-block;
+    margin-top: 0;
+}
+.icon-with-line a{
+    display: inline-block;
+    position: relative;
+    color: #313131;
+    margin-left: 10px;
+    background-color: #bac3cb;
+    font-size: 14px;
+}
+.icon-with-line img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*line-and-icon*/

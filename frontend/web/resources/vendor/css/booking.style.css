@@ -1,0 +1,205 @@
+
+.booking {
+    position: relative;
+    height: 100vh;
+}
+.booking .booking-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.center-booking{
+    display: flex;
+    justify-content: center;
+}
+#booking {
+    font-weight: bold;
+    font-family: 'Alice', serif;
+}
+
+.booking-form {
+    max-width: 912px;
+    width: 100%;
+    margin: 1.5rem 0;
+    background: rgba(208, 210, 212, 0.85);
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 5px 10px -5px rgb(18, 71, 115);
+    box-shadow: 10px 10px 25px 10px rgba(3, 0, 144, 0.54);
+}
+.booking-inner-form{
+    padding:  25px 25px 25px 15px;
+}
+.booking-inner-form .form-group {
+    font-weight: bold;
+}
+.booking-form .booking-bg {
+    position: absolute;
+    left: 25px;
+    top: -25px;
+    bottom: -25px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.booking-form .booking-bg::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(21, 64, 100, 0.72);
+}
+
+.booking-form>form {
+    margin-left: 425px;
+    padding: 30px;
+}
+
+.booking-form .booking-form-header {
+    margin-bottom: 30px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 20;
+}
+
+.booking-form .booking-form-header h2 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 900;
+    color: #fff;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.booking-form .booking-form-header p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.booking-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.booking-form .form-control {
+    background-color: rgba(212, 212, 212, 0.32);
+    height: 45px;
+    padding: 0px 15px;
+    color: #000000;
+    border: 1px solid #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 40px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+    color: #c2c2c2;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+    color: #c2c2c2;
+}
+
+.booking-form .form-control::placeholder {
+    color: #c2c2c2;
+}
+
+.booking-form .form-control:focus {
+    -webkit-box-shadow: 0px 0px 0px 3px #124773;
+    box-shadow: 0px 0px 0px 3px #165b94;
+}
+.booking-form input[type="date"].form-control:invalid {
+    color: #000000;
+}
+
+.booking-form select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.booking-form select.form-control:invalid {
+    color: #000000;
+}
+
+.booking-form select.form-control+.select-arrow {
+    position: absolute;
+    right: 3px;
+    bottom: 5px;
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    pointer-events: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+    content: '\279C';
+    display: block;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.booking-form .form-btn {
+    margin-top: 30px;
+}
+
+.booking-form .submit-btn {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(to right, #124773, #3d7cbe);
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 40px;
+    height: 55px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+    background-image: linear-gradient(to right, #185891, #124773);
+}
+
+@media only screen and (max-width: 768px) {
+    .booking-form .booking-bg {
+        position: relative;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: -15px;
+        width: 95%;
+        margin: auto;
+    }
+    .booking-form>form {
+        margin-left: 0px;
+    }
+}
+

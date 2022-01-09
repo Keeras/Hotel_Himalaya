@@ -1,0 +1,67 @@
+.blog-two-header{
+    overflow-x: hidden;
+    padding: 1rem 0;
+    background-color: #768a9c29;
+}
+.two-header-head{
+    font-size: 3rem;
+    font-family: "Times New Roman", sans-serif;
+}
+.two-header-text{
+    font-size: 1.6rem;
+    font-family: cursive;
+}
+
+.blog-two-body{
+    background-color: #124773;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+}
+.blog-two-card{
+    padding: 0.5rem;
+}
+.card-custom {
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+#content{
+    height: 40px;
+    max-height: 40px;
+    overflow-y: scroll;
+}
+.card-custom-img {
+    height: 200px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: inherit;
+}
+
+/* First border-left-width setting is a fallback */
+.card-custom-img::after {
+    position: absolute;
+    content: '';
+    top: 161px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0 545px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: inherit;
+}
+
+.card-custom-avatar img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    position: absolute;
+    top: 100px;
+    left: 1.25rem;
+    width: 100px;
+    height: 100px;
+}

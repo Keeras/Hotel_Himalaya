@@ -1,0 +1,133 @@
+
+.top-icon-row{
+    display: flex;
+}
+.main-top-header{
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+}
+.main-top-header .navbar-hotel{
+    font-size: 25px;
+    text-shadow: 1px 5px 20px #59646e;
+}
+.top-icon{
+    font-size: 25px;
+    text-shadow: 1px 5px 6px #59646e;
+}
+.top-icon .twit{
+    color: #3BA8FF !important;
+}
+.top-icon .goog{
+    color: #AA1A34 !important;
+}
+.top-icon .insta{
+    color: #FF4129 !important;
+}
+.top-icon .face{
+    color: #1A89E3 !important;
+}
+
+.main-top-header i:hover{
+    color: #FFEC00 !important;
+}
+.main-top-header-2{
+    display: flex;
+}
+body{
+    background-image: -webkit-linear-gradient(0deg, #969696 0%, #9fd3ff5c 100%);
+    /*background-color: rgb(134, 163, 194);*/
+}
+.main-header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    width: 100%;
+    background-color: #124773;
+    color: #ffffff;
+}
+.site-nav{
+    padding: 0.5em 0;
+}
+
+.nav-top-dropdown{
+    background-color: #124773;
+}
+.nav-top-dropdown a:hover {
+    color: #FFFFFF;
+    background-color: #1667AA;
+}
+
+.drop-nav-main:hover .drop-nav-item {
+    display: block;
+}
+
+.footer-image{
+    margin-top: -10rem;
+}
+#page_footer{
+    padding-top: 12rem;
+}
+.site-nav img{
+    width: 100%;
+    height: 50px;
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-footer-color{
+    padding: 2rem 2rem 2rem;
+    max-width: 970px;
+    min-width: auto;
+    border-radius: 15px;
+    background-image: -webkit-linear-gradient(0deg, #124773 0%, #f7fbff  100%);
+    box-shadow: 2.5px 4.5px 15px 0px rgb(18 71 115);
+}
+.top-footer-text h3{
+    font-weight: bold;
+}
+.footer-body-title img{
+    height: 50px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.footer-body .social i{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #1B7BC7;
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding-top: 0.4rem;
+}
+.footer-body-title p,
+.top-footer-text p{
+    text-align: justify !important;
+}
+.footer-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links ul{
+    list-style: none !important;
+}
+.contact-info .icon i{
+    text-align: center;
+    font-size: 20px;
+    color: #1B7BC7;
+}
+
+.footer-body{
+    padding-bottom: 2rem;
+}
+.footer-links li,
+.footer-information i,
+.footer-information p{
+    padding-top: 0.5rem;
+}
+.footer-information i{
+    margin-top: 0.3rem;
+}
